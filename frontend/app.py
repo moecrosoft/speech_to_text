@@ -28,5 +28,5 @@ if st.button('Show History'):
         for t in res.json():
             st.write(t)
     except Exception as e:
-        st.error('Something went wrong')
+        st.error('error')
         st.exception(e)
